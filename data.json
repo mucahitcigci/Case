@@ -1,0 +1,40 @@
+{
+  "comments": [
+    {
+      "title": "Title",
+      "content": "Content",
+      "comment_to_comment": "Comment_to_comment",
+      "time": "14.12.2015"
+    },
+    {
+      "title": "Yorum 1",
+      "content": "içerik 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "comment_to_comment": null,
+      "time": "01.12.1997"
+    },
+    {
+      "title": "Yorum 2 ",
+      "content": "içerik 2",
+      "comment_to_comment": "Yoruma yorum 2",
+      "time": "05.08.2008"
+    },
+    {
+      "title": "Yorum 3",
+      "content": "içerik 3",
+      "comment_to_comment": "",
+      "time": "01.10.2022"
+    },
+    {
+      "title": "Yorum 4 ",
+      "content": "içerik 4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "comment_to_comment": "yoruma yorum 4- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "time": "11.08.2023"
+    },
+    {
+      "title": "Yorum 5",
+      "content": "içerik 5",
+      "comment_to_comment": null,
+      "time": "01.02.1987"
+    }
+  ]
+}

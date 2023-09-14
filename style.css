@@ -1,0 +1,127 @@
+/* Basit bir stil örneği */
+body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.alt-yorum {
+  border: none;
+  padding: 10px;
+  font-size: small;
+  font-style: italic;
+}
+.icerik {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+ul ul {
+  padding-left: 20px;
+}
+.card {
+  border: none;
+  padding: 15px;
+}
+.btn {
+  background-color: rgba(106, 183, 255, 0.795);
+  color: antiquewhite;
+}
+strong {
+  color: rgba(106, 183, 255, 0.795);
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.tree {
+  list-style-type: none;
+  padding-left: 20px; /* İstediğiniz çizgi boşluğunu ayarlayabilirsiniz */
+}
+
+.tree li {
+  position: relative;
+}
+
+.tree li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -15px; /* Çizgi boyutunu ayarlayabilirsiniz */
+  border-left: 1px solid #000; /* Çizgi rengini ve kalınlığını ayarlayabilirsiniz */
+  height: 100%;
+}
+
+.tree .nested {
+  display: none;
+}
+
+.tree li.active .nested {
+  display: block;
+}
+
+.icx {
+  margin: 10px;
+}
+
+/* Özel CSS Stilleri */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.col-left,
+.col-right {
+  padding: 5px;
+}
+
+.menu-item {
+  text-align: left;
+  padding: 10px;
+}
+
+.icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    display: inline-block;
+  }
+
+  .menu-text {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-left {
+    display: block;
+  }
+
+  .menu-text {
+    display: none;
+  }
+
+  .icon {
+    display: inline-block;
+  }
+}
